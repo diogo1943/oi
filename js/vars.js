@@ -8,8 +8,8 @@ var projs_new = [
         service: 'Art Direction / Editorial Design',
         text: "<i>Just the Wind</i> é uma revista sobre contrastes, sobre a dualidade dos extremos. O título provém de uma das cartas homónimas do jogo Magic The Gathering, que alude ao momento em que alguém pergunta “O que foi aquilo?” e alguém responde “Nada, foi apenas o vento”. O primeiro número – “The Wind and The Storm” – centra-se na ideia de humanidade e nos seus estados futuros até que esta atinja o (provável) cume da sua condição. Procurámos explorar as fronteiras entre a real insignificância e a insignificância do real, revelando a big picture de forma dramática, mas tendo sempre em mente que, tal como no mote da carta de Magic “Just the Wind”, “There's nothing to worry about”.",
         collaboration: 'colab w/:<br>Tiago Nunes<br><br>',
-        thumbnail: 'just_the_wind-01.jpg',
-        images: ["just_the_wind-01.jpg", "just_the_wind-02.jpg", "just_the_wind-03.jpg", "just_the_wind-04.jpg", "just_the_wind-05.jpg", "just_the_wind-06.jpg", "just_the_wind-07.jpg", "just_the_wind-08.jpg", "just_the_wind-09.jpg", ]
+        thumbnail: 'jtw/just_the_wind-01.jpg',
+        images: ["jtw/just_the_wind-01.jpg", "jtw/just_the_wind-02.jpg", "jtw/just_the_wind-03.jpg", "jtw/just_the_wind-04.jpg", "jtw/just_the_wind-05.jpg", "jtw/just_the_wind-06.jpg", "jtw/just_the_wind-07.jpg", "jtw/just_the_wind-08.jpg", "jtw/just_the_wind-09.jpg", ]
     },
     {
         index: 1,
@@ -19,8 +19,8 @@ var projs_new = [
         service: 'Art Direction',
         text: '<i>Evolutionary Leap®</i> is a project created with the intent of exploring what it means to be transhuman, what is transhumanism compared with other philosophical ideologies from the same spectrum and to reflect on how transhuman are we already. The goal was to compile a group of “objects”, being them mostly essays, articles, images or projects, that would reflect upon these questions.<br><br>The project is composed by two artifacts: the book and this website. The book is the main archive, containing the majority of the contents, while the website provides a bridge to the transhumanist culture by providing a lexicon explaining common terms associated with the subjects.',
         collaboration: '',
-        thumbnail: 'mike_tilt.png',
-        images: ['420atoa_logo.svg', '420atoa.jpg']
+        thumbnail: '420/mike_tilt.png',
+        images: ['420/420atoa_logo.svg', '420/420atoa.jpg']
     },
     {
         index: 2,
@@ -39,7 +39,7 @@ var projs_new = [
         title_full: "It Takes Several Minutes<br>For The Eyes To Adjust To The Dark (2019)",
         date: 'October 12, 2019 11:13:00',
         service: 'Art Direction / Web Development / Webdesign',
-        text: "<i>Just the Wind</i> é uma revista sobre contrastes, sobre a dualidade dos extremos. O título provém de uma das cartas homónimas do jogo Magic The Gathering, que alude ao momento em que alguém pergunta “O que foi aquilo?” e alguém responde “Nada, foi apenas o vento”. O primeiro número – “The Wind and The Storm” – centra-se na ideia de humanidade e nos seus estados futuros até que esta atinja o (provável) cume da sua condição. Procurámos explorar as fronteiras entre a real insignificância e a insignificância do real, revelando a big picture de forma dramática, mas tendo sempre em mente que, tal como no mote da carta de Magic “Just the Wind”, “There's nothing to worry about”.<br><br><a class='proj_links' target='blank' href='http://ittakesseveralminutes.belasartes.ulisboa.pt/'>Project Website →</a>",
+        text: "In the post-digital era, reality and fiction have been diluted. The expression of this lack of definition isn't limited to just creative and artistic endeavours, but is often weaponized by various power structures, whether formal or informal. This instrumentalization deconstructs core values such as democracy, individual and collective identity, ethnicity, and other fundamental principles of our society.<br><br>Before this current and 'desirable' identity crisis, design always worked with and for reality. Its objects belong, circulate, and (re)construct reality. The frailty of the majority of communication design objects also contributes to this idea of a practice that 'serves' the present. In short, the inevitable shock with reality defines the social status of design. If 'design and reality' is a (false) truism, design and fiction might appear to be an improbable hypothesis. In the face of historical, legitimized practices—such as literature or cinema—design now reclaims its place in fiction.<br><br>At the end of another cycle of study in communication design at the Lisbon Faculty of Fine-Arts, we have gone over the dilemmas, the contradictions and the themes that pertain to contemporaneity. Through the projects produced this year, the students have either commented, critiqued or essayed reality, or turned it into fiction. We've steered very close to cinema, literature, mythology, but also to the hard truths of a reality that insists on presenting itself, suprising us, and deconstructing itself before our eyes.",
         collaboration: 'colab w/:<br>Afonso de Matos<br>Beatriz Pinta Gama<br>Inês Pinheiro<br>Nádia Alexandre<br>Vitor Serra<br><br>',
         thumbnail: 'it_takes/it_takes.png',
         images: ['it_takes/it_takes.png', 'it_takes/it_takes_01.jpg', 'it_takes/it_takes_site-01.png', 'it_takes/it_takes_site-02.png', 'it_takes/it_takes_site-03.png', 'it_takes/it_takes_site-04.png', 'it_takes/it_takes_site-05.png', 'it_takes/it_takes_site-06.png']
@@ -106,37 +106,7 @@ var projs_new = [
         service: 'Art Direction / Webdesign / Web Development',
         text: "No concelho de Tomar, na freguesia de Madalena, encontramos a aldeia de Cem Soldos, lugar onde, uma vez por ano, a cultura portuguesa é celebrada e partilhada com todos os que a visitam nos dias prometidos. Ao visitar Cem Soldos nos quatro dias eufóricos de verão do festival BONS SONS, a memória que guardei desta aldeia foi a de um movimento permanente, ruas e praças cheias até à claustrofobia, atividade borbulhante que ninguém consegue acompanhar, pontos de cerveja a cada esquina e travessas estreitas utilizadas como vias de passagem de um palco para outro. Sem nunca ter chegado a conhecer este lugar, adivinho que Cem Soldos fica perdido algures no contraste entre a alegria e o desânimo, a agitação e a melancolia, a música e o silêncio. Sem a intervenção do festival transforma-se numa aldeia desconhecida, um espaço lúgubre e tranquilo como todas as outras aldeias.<br><br><a class='proj_links' target='blank' href='http://2020.fbaul-dcnm.pt/'>Project Website →</a>",
         collaboration: '',
-        thumbnail: 'fantasia/fantasia.png',
+        thumbnail: 'edge/thumb.svg',
         images: ['edge/edge_logo.svg', 'edge/edge_print-01.png', 'edge/edge_print-02.png']
     }
 ]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-var pikus = [
-    '7',
-    "Pikus (2017)",
-    "Pikus (2017)",
-    "pikus.png",
-    '<i>Evolutionary Leap®</i> is a project created with the intent of exploring what it means to be transhuman, what is transhumanism compared with other philosophical ideologies from the same spectrum and to reflect on how transhuman are we already. The goal was to compile a group of “objects”, being them mostly essays, articles, images or projects, that would reflect upon these questions.<br><br>The project is composed by two artifacts: the book and this website. The book is the main archive, containing the majority of the contents, while the website provides a bridge to the transhumanist culture by providing a lexicon explaining common terms associated with the subjects.<br><br><a class="proj_links" target="blank" href="http://2020.fbaul-dcnm.pt/evolutionary_leap/">Project Website →</a>',
-    '',
-    "jtw.png",
-    "jtw.png",
-    "jtw.png",
-    "jtw.png",
-    "jtw.png",
-    "jtw.png",
-];
-projs.push(pikus);*/
