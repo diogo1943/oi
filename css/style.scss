@@ -57,7 +57,21 @@ br {
   font-size: 10px;
 }
 
+
+@keyframes smoothload {
+  0% {
+
+    opacity: 0;
+    ;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
 #flag {
+  display: initial;
   height: $font_normal;
   margin-bottom: -3px;
 }
@@ -120,6 +134,7 @@ br {
 
   img {
     display: none;
+    animation: smoothload 0.05s linear;
   }
 }
 
@@ -160,18 +175,6 @@ br {
 
 #close:hover {
   cursor: pointer;
-}
-
-@keyframes smoothload {
-  0% {
-
-    opacity: 0;
-    ;
-  }
-
-  100% {
-    opacity: 1;
-  }
 }
 
 .hidden {
@@ -243,6 +246,10 @@ br {
   }
 }
 
+#emojiflag {
+  display: none;
+}
+
 
 
 
@@ -309,5 +316,13 @@ br {
     img {
       display: none;
     }
+  }
+
+  #flag {
+    display: none;
+  }
+
+  #emojiflag {
+    display: initial;
   }
 }
