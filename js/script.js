@@ -30,7 +30,7 @@ function render() {
             var p = document.createElement('p');
             var a = document.createElement('a');
             a.classList.add("item_links");
-            console.log((projs_new[i])['title_home']);
+            //console.log((projs_new[i])['title_home']);
             a.appendChild(document.createTextNode((projs_new[i])['title_home']));
             var img = document.createElement("IMG");
             img.setAttribute("src", "img/work/" + (projs_new[i])['thumbnail']);
@@ -76,7 +76,7 @@ function openproj() {
     var images = (projs_new[i])['images']
 
     for (v = 0; v < images.length; v++) {
-        console.log('oi');
+        //console.log('oi');
         var img = document.createElement("IMG");
         var src = images[v];
         //console.log(src);
