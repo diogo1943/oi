@@ -86,6 +86,8 @@ function openproj() {
         img.addEventListener('click', zoom_img);
         document.getElementById("galeria").appendChild(img);
     }
+
+    lazy();
 }
 
 function close_proj() {
