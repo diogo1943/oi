@@ -137,6 +137,24 @@ br {
   margin-bottom: 0px;
 }
 
+.list {
+  margin: 0;
+  margin-bottom: 0;
+}
+
+ul {
+  margin: 0;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  font-size: 11px;
+  margin: 0px;
+  padding-left: 0px;
+}
+
 .item_links,
 .item_links:visited {
   text-decoration: none;
@@ -296,13 +314,13 @@ br {
 
 @media screen and (max-width: 600px) {
   body {
-    background-color: #ffe600;
+    background-color: lime;
   }
   ::-moz-selection {
-    background: #ffe600;
+    background: lime;
   }
   ::selection {
-    background: #ffe600;
+    background: lime;
   }
   .cont {
     width: 100%;
