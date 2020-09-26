@@ -61,7 +61,7 @@ var projs_new = [
         title_full: 'Living On The Edge Of (2020)',
         date: 'July 23, 2020 00:00:00',
         service: 'Graphic Design / Webdesign / Web Development',
-        text: "In the midst of harder times, <i>living on the edge</i> has become an expression more commonly associated with our day-to-day lives, those which have somewhat turned into an uncool version of what we expected from a pandemic dystopia-like reality.<br><br>In the close of the first year of the Master’s Degree in Communication Design the students reflected upon many contemporary questions such as: human-machine relations, surveillance, post-internet society and the importance of individual identity. <br><br>&quot;Living on the edge of&quot; comes as a practical answer to the impossibility of a physical exhibition. It’s a crossroad that takes us to the many different worlds created by the students. The title also refers to the approaches they took to explore the limits of their particular subjects. Because what’s the point of living if not on the edge?<br><br><a class='proj_links' target='blank' href='http://2020.fbaul-dcnm.pt/'>Project Website →</a>",
+        text: "In the midst of harder times, &quot;living on the edge&quot; has become an expression more commonly associated with our day-to-day lives, those which have somewhat turned into an uncool version of what we expected from a pandemic dystopia-like reality.<br><br>In the close of the first year of the Master’s Degree in Communication Design the students reflected upon many contemporary questions such as: human-machine relations, surveillance, post-internet society and the importance of individual identity. <br><br><i>Living on the edge of</i> comes as a practical answer to the impossibility of a physical exhibition. It’s a crossroad that takes us to the many different worlds created by the students. The title also refers to the approaches they took to explore the limits of their particular subjects. Because what’s the point of living if not on the edge?<br><br><a class='proj_links' target='blank' href='http://2020.fbaul-dcnm.pt/'>Project Website →</a>",
         collaboration: '',
         thumbnail: 'edge/thumb.svg',
         images: ['edge/edge_logo.svg', 'edge/edge_print-01.png', 'edge/edge_print-02.png']
@@ -70,9 +70,9 @@ var projs_new = [
         index: 6,
         title_home: 'Fantasia (2020)',
         title_full: 'Fantasia (2020)',
-        date: 'October 01, 2021 00:00:00',
+        date: 'September 23, 2020 00:00:00',
         service: 'Graphic Design / Webdesign / Web Development',
-        text: "Design Project for everything around DJ 420@ôa’s 2020 album release.<br><br><a class='proj_links' target='blank' href='http://ittakesseveralminutes.belasartes.ulisboa.pt/'>Project Website →</a>",
+        text: "Design Project for everything around DJ 420@ôa’s 2020 album release.<br><br><a class='proj_links' target='blank' href='http://2020.fbaul-dcnm.pt/diogo/mikellax/'>Project Website →</a>",
         collaboration: '',
         thumbnail: 'fantasia/fantasia.jpg',
         images: ['fantasia/fantasia_flat.jpg', 'fantasia/borderless.png', 'fantasia/fantasia-logo_1.png', 'fantasia/vynil.png']
@@ -81,9 +81,9 @@ var projs_new = [
         index: 7,
         title_home: 'Psiquiatria, Arte e Cultura (2020)',
         title_full: 'Psiquiatria, Arte e Cultura (2020)',
-        date: 'September 23, 2021 00:00:00',
+        date: 'September 23, 2020 00:00:00',
         service: 'Graphic Design / Webdesign',
-        text: "Between Psychiatry and Art, is the title of the 8th National Meet of Psychiatry Interns. The Encounter is a program of conferences, master classes and workshops that aim to make a bridge between psychiatry and the artistic.<br><br>The brain – associated with the medical’s analytic practice –, and the head or the avatar – a reference to the identity and existential questions that characterize the artistic work –, are used as the two concentric and intercepting elements in motion that create the focal element of the visual identity.<br><br><a class='proj_links' target='blank' href='http://www.apipsiquiatria.pt/congressos/'>Project Website →</a>",
+        text: "<i>Psychiatry Art and Culture</i>, is the title of the congress hosted by the association of Psychiatry Interns (Apip). The Encounter is a program of conferences and talks that aim to make a bridge between psychiatry and the artistic. Due to the situation caused by the COVID-19 pandemic, the congress has adapted from a physical event to be fully online though a live-stream.<br><br>The brain – associated with the medical’s analytic practice –, and the head or the avatar – a reference to the identity and existential questions that characterize the artistic work –, are used as the two concentric and intercepting elements in motion that create the focal element of the visual identity.<br><br><a class='proj_links' target='blank' href='http://www.apipsiquiatria.pt/congressos/'>Project Website →</a>",
         collaboration: 'colab w/:<br>Abel Quental<br><br>',
         thumbnail: 'enip/head.gif',
         images: ['enip/enip.png', 'enip/post_fb_1.png', 'enip/enip_site-01.png', 'enip/enip_site-02.png']
