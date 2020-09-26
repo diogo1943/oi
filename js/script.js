@@ -5,7 +5,11 @@ close.addEventListener("click", close_proj);
 
 document.onkeydown = function (evt) {
     evt = evt || window.event;
-    if (evt.keyCode == 27) {
+
+    //console.log(evt);
+
+    if (evt['key'] == "Escape") {
+
         var check_zoom = document.getElementById('zoomed');
 
         if (check_zoom != null) {
@@ -54,9 +58,10 @@ function render() {
     }
 }
 
-function openproj() {
+function openproj(evt) {
 
-    var i = event.srcElement.id;
+    evt = evt || window.event;
+    var i = evt.srcElement.id;
     //console.log(i);
     //console.log((projs[i])[1]);
 
@@ -95,11 +100,13 @@ function close_proj() {
     window.scrollTo(0, 0);
 }
 
-function zoom_img() {
-    console.log('zoom in');
+function zoom_img(evt) {
+    //console.log('zoom in');
 
-    var i = event.srcElement.src;
-    var id = event.srcElement.id;
+    evt = evt || window.event;
+
+    var i = evt.srcElement.src;
+    var id = evt.srcElement.id;
     //console.log(i);
 
     var dark_back = document.createElement('div');
@@ -118,7 +125,7 @@ function zoom_img() {
     } else {
         esc.appendChild(document.createTextNode('x'));
     }
-    //esc.classList.add('item_links');
+
     esc.addEventListener('click', zoom_out);
     dark_back.appendChild(esc);
 
