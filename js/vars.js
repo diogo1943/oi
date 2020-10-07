@@ -81,12 +81,12 @@ var projs_new = [
         index: 7,
         title_home: 'Psiquiatria, Arte e Cultura (2020)',
         title_full: 'Psiquiatria, Arte e Cultura (2020)',
-        date: 'September 23, 2021 00:00:00',
+        date: 'October 07, 2020 00:00:00',
         service: 'Graphic Design / Webdesign',
         text: "<i>Psychiatry Art and Culture</i>, is the title of the congress hosted by the association of Psychiatry Interns (Apip). The Encounter is a program of conferences and talks that aim to make a bridge between psychiatry and the artistic. Due to the situation caused by the COVID-19 pandemic, the congress has adapted from a physical event to be fully online though a live-stream.<br><br>The brain – associated with the medical’s analytic practice –, and the head or the avatar – a reference to the identity and existential questions that characterize the artistic work –, are used as the two concentric and intercepting elements in motion that create the focal element of the visual identity.<br><br><a class='proj_links' target='blank' href='http://www.apipsiquiatria.pt/congressos/'>Project Website →</a>",
         collaboration: 'colab w/:<br>Abel Quental<br><br>',
         thumbnail: 'enip/head.gif',
-        images: ['enip/enip.png', 'enip/post_fb_1.png', 'enip/enip_site-01.png', 'enip/enip_site-02.png']
+        images: ['enip/enip.png', 'enip/enip_photo1.jpg', 'enip/enip_photo2.jpg', 'enip/enip_cartaz.jpg', 'enip/enip_site-01.png', 'enip/enip_site-02.png']
     }
 ]
 
