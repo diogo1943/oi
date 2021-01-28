@@ -68,17 +68,6 @@ var projs_new = [
     },
     {
         index: 6,
-        title_home: 'Fantasia (2020)',
-        title_full: 'Fantasia (2020)',
-        date: 'September 23, 2021 00:00:00',
-        service: 'Graphic Design / Webdesign / Web Development',
-        text: "Design Project for everything around DJ 420@ôa’s 2020 album release.<br><br><a class='proj_links' target='blank' href='http://2020.fbaul-dcnm.pt/diogo/mikellax/'>→ Project Website</a>",
-        collaboration: '',
-        thumbnail: 'fantasia/fantasia.jpg',
-        images: ['fantasia/fantasia_flat.jpg', 'fantasia/borderless.png', 'fantasia/fantasia-logo_1.png', 'fantasia/vynil.png']
-    },
-    {
-        index: 7,
         title_home: 'Psiquiatria, Arte e Cultura (2020)',
         title_full: 'Psiquiatria, Arte e Cultura (2020)',
         date: 'October 07, 2020 00:00:00',
@@ -87,6 +76,17 @@ var projs_new = [
         collaboration: 'colab w/:<br>Abel Quental<br><br>',
         thumbnail: 'enip/head.gif',
         images: ['enip/enip.png', 'enip/enip_photo1.jpg', 'enip/enip_photo2.jpg', 'enip/enip_cartaz.jpg', 'enip/enip_site-01.png', 'enip/enip_site-02.png']
+    },
+    {
+        index: 7,
+        title_home: 'Fantasia (2021)',
+        title_full: 'Fantasia (2021)',
+        date: 'September 23, 2020 00:00:00',
+        service: 'Graphic Design / Webdesign / Web Development',
+        text: "Design Project for everything around DJ 420@ôa’s 2020 album release.<br><br><a class='proj_links' target='blank' href='https://420atoa.com/'>→ Project Website</a>",
+        collaboration: '',
+        thumbnail: 'fantasia/fantasia.jpg',
+        images: ['fantasia/fantasia_flat.jpg',/*'fantasia/fantasia_single.jpg',*/ 'fantasia/borderless.png', 'fantasia/fantasia-logo_1.png', 'fantasia/vynil.png'/*, 'fantasia/420website.png'*/]
     }
 ]
 
@@ -119,17 +119,6 @@ var projs_new = [
         thumbnail: 'af_thumb-01.png',
         images: ['af_logo2.svg', 'af_page-01.png', 'af_page-02.png', 'af_page-03.png', 'af_page-04.png', 'af_page-05.png', 'af_page-06.png', 'af_page-07.png', 'af_page-08.png', 'af_page-09.png']
     },
-    {
-        index: 6,
-        title_home: 'Entre a Psiquiatria e a Arte (2020)',
-        title_full: 'Entre a Psiquiatria e a Arte (2020)',
-        date: 'October 12, 2019 00:00:00',
-        service: 'Graphic Design / Brand Identity / Webdesign',
-        text: '<i>Evolutionary Leap®</i> is a project created with the intent of exploring what it means to be transhuman, what is transhumanism compared with other philosophical ideologies from the same spectrum and to reflect on how transhuman are we already. The goal was to compile a group of “objects”, being them mostly essays, articles, images or projects, that would reflect upon these questions.<br><br>The project is composed by two artifacts: the book and this website. The book is the main archive, containing the majority of the contents, while the website provides a bridge to the transhumanist culture by providing a lexicon explaining common terms associated with the subjects.<br><br><a class="proj_links" target="blank" href="http://2020.fbaul-dcnm.pt/evolutionary_leap/">→ Project Website</a>',
-        collaboration: 'colab w/:<br>Abel Quental<br><br>',
-        thumbnail: 'enip.png',
-        images: ['enip.png']
-    },
 
         {
         index: 6,
@@ -141,5 +130,17 @@ var projs_new = [
         collaboration: '',
         thumbnail: 'proxy.svg',
         images: ['proxy_logo.svg', 'proxy.svg']
+    },
+
+        {
+        index: 7,
+        title_home: "This Ain't No Pyramyd Scheme  (2020)",
+        title_full: "This Ain't No Pyramyd Scheme  (2020)",
+        date: 'October 07, 2020 00:00:00',
+        service: 'Graphic Design',
+        text: "Design Project for everything around Coletivo Lenha's 2020 compilation album release.",
+        collaboration: '',
+        thumbnail: 'pyramid/pyramid_cd.png',
+        images: [/*'pyramid/logo.svg',*-/ 'pyramid/cover.jpg', 'pyramid/pyramid_cd.png']
     },
 */
