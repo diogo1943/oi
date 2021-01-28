@@ -83,7 +83,7 @@ var projs_new = [
         title_full: 'Fantasia (2021)',
         date: 'January 27, 2021 00:00:00',
         service: 'Graphic Design / Webdesign / Web Development',
-        text: "Design Project for everything around DJ 420@ôa’s 2020 album release.<br><br><a class='proj_links' target='blank' href='https://420atoa.com/'>→ Project Website</a>",
+        text: "Design Project for everything around DJ 420@ôa’s 2021 album release.<br><br><a class='proj_links' target='blank' href='https://420atoa.com/'>→ Project Website</a>",
         collaboration: '',
         thumbnail: 'fantasia/fantasia.jpg',
         images: ['fantasia/fantasia_flat.jpg',/*'fantasia/fantasia_single.jpg',*/ 'fantasia/borderless.png', 'fantasia/fantasia-logo_1.png', 'fantasia/vynil.png'/*, 'fantasia/420website.png'*/]
