@@ -9,6 +9,7 @@ body {
   font-family: 'Work Sans', sans-serif;
   font-size: 15px;
   cursor: default;
+  scrollbar-width: none;
   scroll-behavior: smooth;
 }
 
@@ -204,9 +205,7 @@ ul li {
 }
 
 #close {
-  font-family: 'Mono';
   font-size: 20px;
-  font-weight: bold;
   margin: 0;
 }
 
