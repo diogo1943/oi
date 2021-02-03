@@ -79,6 +79,17 @@ var projs_new = [
     },
     {
         index: 7,
+        title_home: "This Ain't No Pyramyd Scheme  (2020)",
+        title_full: "This Ain't No Pyramyd Scheme  (2020)",
+        date: 'January 28, 2021 00:00:00' /*'November 12, 2020 00:00:00'*/,
+        service: 'Graphic Design',
+        text: "Design Project for everything around Coletivo Lenha's 2020 compilation album release.",
+        collaboration: '',
+        thumbnail: 'pyramid/pyramid_cd.png',
+        images: ['pyramid/cover.jpg', 'pyramid/digipack.png', 'pyramid/pyramid_cd.png']
+    },
+    {
+        index: 8,
         title_home: 'Fantasia (2021)',
         title_full: 'Fantasia (2021)',
         date: 'January 28, 2021 00:00:00',
@@ -86,7 +97,7 @@ var projs_new = [
         text: "Design Project for everything around DJ 420@ôa’s 2021 album release.<br><br><a class='proj_links' target='blank' href='https://420atoa.com/'>→ Project Website</a>",
         collaboration: '',
         thumbnail: 'fantasia/fantasia.jpg',
-        images: ['fantasia/fantasia_flat.jpg',/*'fantasia/fantasia_single.jpg',*/ 'fantasia/borderless.png', 'fantasia/fantasia-logo_1.png', 'fantasia/vynil.png'/*, 'fantasia/420website.png'*/]
+        images: ['fantasia/fantasia_flat.jpg', 'fantasia/borderless.png', 'fantasia/fantasia-logo_1.png', 'fantasia/vynil.png' /*, 'fantasia/420website.png'*/ ]
     }
 ]
 
@@ -132,15 +143,15 @@ var projs_new = [
         images: ['proxy_logo.svg', 'proxy.svg']
     },
 
-        {
-        index: 7,
-        title_home: "This Ain't No Pyramyd Scheme  (2020)",
-        title_full: "This Ain't No Pyramyd Scheme  (2020)",
-        date: 'October 07, 2020 00:00:00',
-        service: 'Graphic Design',
-        text: "Design Project for everything around Coletivo Lenha's 2020 compilation album release.",
-        collaboration: '',
-        thumbnail: 'pyramid/pyramid_cd.png',
-        images: [/*'pyramid/logo.svg',*-/ 'pyramid/cover.jpg', 'pyramid/pyramid_cd.png']
-    },
+, {
+        index: 9,
+        title_home: 'Daily Post-Truth (2021)',
+        title_full: 'Daily Post-Truth (2021)',
+        date: 'January 28, 2021 00:00:00',
+        service: 'Graphic Design / Editorial Design',
+        text: "Design Project for everything around DJ 420@ôa’s 2021 album release.<br><br><a class='proj_links' target='blank' href='https://ext.maat.pt/longforms/design-fiction'>→ Project Website</a>",
+        collaboration: 'colab w/:<br>Abel Quental<br>Beatriz Pinta<br>Madalena Lopes<br><br>',
+        thumbnail: 'daily-post/title.png',
+        images: ['daily-post/title.png', 'daily-post/cover.jpg', 'daily-post/tape.jpg', 'daily-post/coverbw.jpg', 'daily-post/fake.jpg', 'daily-post/workshop2.jpg']
+    }
 */

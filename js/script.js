@@ -13,13 +13,22 @@ document.onkeydown = function (evt) {
         var check_zoom = document.getElementById('zoomed');
 
         if (check_zoom != null) {
-            console.log('ckajdshkah');
+            //console.log('ckajdshkah');
             zoom_out();
         } else {
             close_proj();
         }
     }
 };
+
+/*
+if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+    console.log('oi');
+    document.body.style.backgroundColor = 'black';
+    document.body.style.color = 'red';
+}
+*/
+
 
 
 function render() {
