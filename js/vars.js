@@ -83,7 +83,7 @@ var projs_new = [
         title_full: "This Ain't No Pyramyd Scheme  (2020)",
         date: 'January 28, 2021 00:00:00' /*'November 12, 2020 00:00:00'*/,
         service: 'Graphic Design',
-        text: "Design Project for everything around Coletivo Lenha's 2020 compilation album release.",
+        text: "Design Project for everything around Coletivo Lenha's 2020 compilation album release. ",
         collaboration: '',
         thumbnail: 'pyramid/pyramid_cd.png',
         images: ['pyramid/cover.jpg', 'pyramid/digipack.png', 'pyramid/pyramid_cd.png']
