@@ -47,6 +47,7 @@ function render() {
             a.appendChild(document.createTextNode((projs_new[i])['title_home']));
             var img = document.createElement("IMG");
             img.setAttribute("src", "img/work/" + (projs_new[i])['thumbnail']);
+            img.setAttribute("alt", '© Diogo lourenço (OI)');
             p.appendChild(a);
             a.appendChild(img);
             a.setAttribute("id", (projs_new[i])['index']);
@@ -95,6 +96,7 @@ function openproj(evt) {
         var src = images[v];
         //console.log(src);
         img.setAttribute("id", v);
+        img.setAttribute("alt", '© Diogo lourenço (OI)');
         img.setAttribute("src", "img/work/" + src);
         img.classList.add('galeria_img');
         img.addEventListener('click', zoom_img);
@@ -145,3 +147,5 @@ function zoom_img(evt) {
 function zoom_out() {
     document.body.removeChild(document.getElementById('zoomed'));
 }
+
+console.log('Diogo Lourenço™ (OI)\nDesigned and Developed by Diogo Lourenço\n\n이 글을 읽으신다면 저를 한국으로 데려가주세요...');

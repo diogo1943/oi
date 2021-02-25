@@ -154,7 +154,6 @@ ul {
   margin: 0;
   list-style: none;
   padding: 0;
-  margin: 0;
 }
 
 ul li {
@@ -257,7 +256,7 @@ ul li {
 }
 
 #zoomed {
-  background-color: rgba(0, 0, 0, 0.76);
+  background-color: rgba(3, 124, 3, 0.705);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -364,9 +363,11 @@ ul li {
   #emojiflag {
     display: initial;
   }
+  /*
   #oichan {
     display: none;
   }
+  */
 }
 
 .laxy {
