@@ -81,7 +81,7 @@ var projs_new = [
         index: 7,
         title_home: "This Ain't No Pyramyd Scheme  (2020)",
         title_full: "This Ain't No Pyramyd Scheme  (2020)",
-        date: 'January 28, 2021 00:00:00' /*'November 12, 2020 00:00:00'*/,
+        date: 'November 12, 2020 00:00:00',
         service: 'Graphic Design',
         text: "Design Project for everything around Coletivo Lenha's 2020 compilation album release.",
         collaboration: '',
@@ -98,6 +98,17 @@ var projs_new = [
         collaboration: '',
         thumbnail: 'fantasia/fantasia.jpg',
         images: ['fantasia/fantasia_flat.jpg', 'fantasia/borderless.png', 'fantasia/fantasia-logo_1.png', 'fantasia/vynil.png' /*, 'fantasia/420website.png'*/ ]
+    },
+    {
+        index: 9,
+        title_home: 'CLOT® Kiss of Death "CHA" (2021)',
+        title_full: 'CLOT® Kiss of Death "CHA" (2021)',
+        date: 'January 28, 2021 00:00:00',
+        service: 'Graphic Design',
+        text: "Experimental poster inspired by CLOT's rumored Air Max 1 K.O.D &quotCHA&quot release as a way of celebrating Air Max Month.",
+        collaboration: '',
+        thumbnail: 'clot_cha/clot_cha_logo.png',
+        images: ['clot_cha/clot_cha_logo.png', 'clot_cha/clot_cha_poster.jpg']
     }
 ]
 
@@ -143,7 +154,7 @@ var projs_new = [
         images: ['proxy_logo.svg', 'proxy.svg']
     },
 
-, {
+     {
         index: 9,
         title_home: 'Daily Post-Truth (2021)',
         title_full: 'Daily Post-Truth (2021)',
@@ -153,5 +164,26 @@ var projs_new = [
         collaboration: 'colab w/:<br>Abel Quental<br>Beatriz Pinta<br>Madalena Lopes<br><br>',
         thumbnail: 'daily-post/title.png',
         images: ['daily-post/title.png', 'daily-post/cover.jpg', 'daily-post/tape.jpg', 'daily-post/coverbw.jpg', 'daily-post/fake.jpg', 'daily-post/workshop2.jpg']
-    }
+    }, {
+        index: 10,
+        title_home: 'From VPN to BPM Remastered (2021)',
+        title_full: 'From VPN to BPM Remastered (2021)',
+        date: 'January 28, 2021 00:00:00',
+        service: 'Graphic Design / Editorial Design',
+        text: "Design Project for everything around DJ 420@ôa’s 2021 album release.<br><br><a class='proj_links' target='blank' href='https://ext.maat.pt/longforms/design-fiction'>→ Project Website</a>",
+        collaboration: '',
+        thumbnail: 'vpn_remastered/logo_sq.svg',
+        images: ['vpn_remastered/logo_hor.svg', 'vpn_remastered/capa.jpg', 'vpn_remastered/vpn_remastered4.jpg', 'vpn_remastered/vpn_remastered5.jpg', 'vpn_remastered/vpn_remastered6.jpg', 'vpn_remastered/vpn_remastered8.jpg', 'vpn_remastered/vpn_remastered10.jpg', 'vpn_remastered/vpn_remastered13.jpg', 'vpn_remastered/vpn_remastered15.jpg']
+    }, {
+        index: 11,
+        title_home: 'Cinenova (2021)',
+        title_full: 'Cinenova (2021)',
+        date: 'January 28, 2021 00:00:00',
+        service: 'Art Direction / Brand Identity / Graphic Design / Webdesign',
+        text: "Design Project for everything around DJ 420@ôa’s 2021 album release.<br><br><a class='proj_links' target='blank' href='https://ext.maat.pt/longforms/design-fiction'>→ Project Website</a>",
+        collaboration: 'colab w/:<br>João Delgado<br>Maria Antunes<br><br>',
+        thumbnail: 'cinenova2021/thumb.png',
+        images: ['cinenova2021/title.svg', 'cinenova2021/thumb.png', 'cinenova2021/poster.jpg']
+    },
+
 */
