@@ -101,8 +101,8 @@ var projs_new = [
     },
     {
         index: 9,
-        title_home: 'CLOT® Kiss of Death "CHA" (2021)',
-        title_full: 'CLOT® Kiss of Death "CHA" (2021)',
+        title_home: 'CLOT Kiss of Death "CHA" (2021)',
+        title_full: 'CLOT Kiss of Death "CHA" (2021)',
         date: 'March 16, 2021 00:00:00',
         service: 'Graphic Design',
         text: "Experimental poster inspired by CLOT's rumored Air Max 1 K.O.D &quotCHA&quot as a way of celebrating Air Max Month.",
