@@ -44,7 +44,7 @@ function render() {
             var a = document.createElement('a');
             a.classList.add("item_links");
             //console.log((projs_new[i])['title_home']);
-            a.appendChild(document.createTextNode((projs_new[i])['title_home']));
+            a.innerHTML = (projs_new[i])['title_home'];
             var img = document.createElement("IMG");
             img.setAttribute("src", "img/work/" + (projs_new[i])['thumbnail']);
             img.setAttribute("alt", '© Diogo lourenço (OI)');
