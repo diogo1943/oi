@@ -119,12 +119,16 @@ br {
   margin: 0;
 }
 
-#proj p:nth-of-type(1) {
-  margin: 0;
-}
-
 #proj #service {
   margin-bottom: 15px;
+}
+
+#work_text p {
+  margin-bottom: 15px;
+}
+
+#closeP {
+  margin: 0;
 }
 
 .right {

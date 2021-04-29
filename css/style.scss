@@ -109,13 +109,20 @@ br {
 }
 
 #proj {
-  p:nth-of-type(1) {
-    margin: 0;
-  }
 
   #service {
     margin-bottom: $font_normal;
   }
+}
+
+#work_text {
+  p {
+    margin-bottom: $font_normal;
+  }
+}
+
+#closeP {
+  margin: 0;
 }
 
 .right {
