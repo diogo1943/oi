@@ -50,7 +50,7 @@ var projs_new = [
         title_full: 'Cinenova (2020)',
         date: 'October 12, 2019 00:00:00',
         service: 'Brand Identity / Graphic Design / Web Development / Webdesign',
-        text: '<p>Organized by university students and professors of NOVA-FCSH, CINENOVA is the first Interuniversity Film Festival in Portugal. Its goal is to focus on the relationship between Cinema and Knowledge, and to bolster student directors and their projects.</p><p>This project comes as a collaboration with the Fine-Arts School of Lisbon (FBAUL) where a small team was assembled to develop the new brand identity, communication and website for the festival.</p><p><a class="proj_links" target="blank" href="https://cinenova.fcsh.unl.pt/">→ Project Website</a></p>',
+        text: '<p>Organized by university students and professors of NOVA-FCSH, CINENOVA is the first Interuniversity Film Festival in Portugal. Its goal is to focus on the relationship between Cinema and Knowledge, and to bolster student directors and their projects.</p><p>This project comes as a collaboration with the Fine-Arts School of Lisbon (FBAUL) where a small team was assembled to develop the new brand identity, communication and website for the festival.</p><p><a class="proj_links" target="blank" href="https://cinenova.fcsh.unl.pt/2020/cinenova2020">→ Project Website</a></p>',
         collaboration: 'colab w/:<br>Tiago Nunes<br><br>',
         thumbnail: 'cinenova/cinenova.jpg',
         images: ['cinenova/cine_logo.svg', 'cinenova/cinenova.jpg', 'cinenova/cine_poster.jpg', 'cinenova/cine_site-01.png', 'cinenova/cine_site-02.png', 'cinenova/cine_site-03.png', 'cinenova/cine_site-04.png', ]
