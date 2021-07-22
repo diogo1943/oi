@@ -121,6 +121,10 @@ br {
   }
 }
 
+#collabs_p{
+  margin-bottom: $font_normal;
+}
+
 #closeP {
   margin: 0;
 }
@@ -371,4 +375,17 @@ ul {
 
 .laxy {
   display: block;
+}
+
+.note{
+  font-size: $font_sub;
+  //font-weight: bold;
+}
+
+hr{
+  color: black;
+  background-color: black;
+  margin: 0 0 15px;
+  border: solid 0.5px black;
+  border-radius: 50%;
 }

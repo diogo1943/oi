@@ -127,6 +127,10 @@ br {
   margin-bottom: 15px;
 }
 
+#collabs_p {
+  margin-bottom: 15px;
+}
+
 #closeP {
   margin: 0;
 }
@@ -376,5 +380,17 @@ ul li {
 
 .laxy {
   display: block;
+}
+
+.note {
+  font-size: 11px;
+}
+
+hr {
+  color: black;
+  background-color: black;
+  margin: 0 0 15px;
+  border: solid 0.5px black;
+  border-radius: 50%;
 }
 /*# sourceMappingURL=style.css.map */
