@@ -68,7 +68,7 @@ var projs_new = [
         service: ['Graphic Design', 'Webdesign'],
         text: "<p><i>Psychiatry Art and Culture</i>, is the title of the congress hosted by the association of Psychiatry Interns (Apip). The Encounter is a program of conferences and talks that aim to make a bridge between psychiatry and the artistic. Due to the situation caused by the COVID-19 pandemic, the congress has adapted from a physical event to be fully online through a live-stream.</p><p>The brain — associated with the medical’s analytic practice —, and the head or the avatar — a reference to the identity and existential questions that characterize the artistic work —, are used as the two concentric and intercepting elements in motion that create the focal element of the visual identity.</p><p><a class='proj_links' target='blank' href='http://www.apipsiquiatria.pt/congressos/'>→ Project Website</a></p>",
         collaboration: ['Abel Quental'],
-        thumbnail: 'enip/head.gif',
+        thumbnail: 'enip/head.webp',
         images: ['enip/enip.png', 'enip/enip_photo1.jpg', 'enip/enip_photo2.jpg', 'enip/enip_cartaz.jpg', 'enip/enip_site-01.png', 'enip/enip_site-02.png']
     },
     {
@@ -110,6 +110,16 @@ var projs_new = [
         collaboration: ['Abel Quental', 'Beatriz Pinta', 'Madalena Lopes'],
         thumbnail: 'daily-post/thumb.jpg',
         images: ['daily-post/fake_crystal.png', 'daily-post/01.jpg', 'daily-post/02.jpg', 'daily-post/03.jpg', 'daily-post/spreads.gif', 'daily-post/play-01.jpg', 'daily-post/play-02.jpg', 'daily-post/play-03.jpg', 'daily-post/workshop.jpg', 'daily-post/workshop2.jpg']
+    },
+    {
+        title_home: 'Ferrari Esports Livery Contest',
+        title_full: 'Ferrari Esports Livery Contest',
+        date: 'Jully 28, 2021 00:00:00',
+        service: ['Graphic Design'],
+        text: "<p>The goal with this livery trio was to bring the world of motorsport closer to the digital world. The design was made to give the impression of the cars breaking into the world of gaming, with their bright colors and glitch-like patterns. The liveries were divided by layers, the first bringing up the more functional aspect of the cars with lines emphasizing the aero lines as well as other functional details and the second bringing up the digital motifs. The vibrant colors used on the cars where chosen to evoke the RGB color system, which is commonly associated with the gaming world, but also has a parallel to the CMYK color system, traditionally used in printed matter, reflected in the usage of the registration marks and the crop outlines, functioning as a bridge between the physical and the digital universes.</p><p>Each car was given a livery that could best reflect its own character. The 599 (yellow), given its more emposing and classical silhouette gives a nod to the Italian fashion scene with its pin-striped hood, while the 488 GT3 (dark red), due to its more aggressive looking posture, has a design that tries to use the negative dark space as a way to change its apparent aerodynamics. The remaining livery for the Challenger Evo (red) was made to be the default <i>digital cruiser</i>, being the livery that incorporates more aspects of the digital identity.</p><hr><p class='note'>Note: This project has a really special place for me and in my path as a designer. Since my childhood I have played many racing games and remembering being more invested in designing the cars more than racing with them, and that has influenced me to become a designer. One of my personal goals as a graphic designer was to one day design a real racing livery, and this project allowed me to be one step closer to that reality. Special thanks to my great friend Tiago Nunes, for not only showing me this opportunity but for also sharing the game with me.</p><p><a class='proj_links' target='blank' href='https://esports-registration.ferrari.com/liverycontest/'>→ Livery Contest Voting</a></p>",
+        collaboration: [],
+        thumbnail: 'ferrari/ferrari.jpg',
+        images: ['ferrari/488_preview.jpg', 'ferrari/488_preview2.jpg', 'ferrari/488_preview3.jpg', 'ferrari/599_preview.jpg', 'ferrari/599_preview2.jpg', 'ferrari/599_preview3.jpg', 'ferrari/gt3_preview.jpg', 'ferrari/gt3_preview2.jpg', 'ferrari/gt3_preview3.jpg']
     }
 ]
 
