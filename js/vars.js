@@ -130,6 +130,16 @@ var projs_new = [
         collaboration: [],
         thumbnail: 'ctt/thumb-01.jpg',
         images: ['ctt/collab.svg', 'ctt/flat.jpg', 'ctt/ctt-01.jpg', 'ctt/ctt-03.jpg']
+    },
+    {
+        title_home: 'Bootlegs @ôa: Remix Collection',
+        title_full: 'Bootlegs @ôa: Remix Collection',
+        date: 'September 9, 2021 00:00:00',
+        service: ['Graphic Design'],
+        text: "<p>Cover art design for DJ 420@ôa’s remix collection EP, <i>Bootlegs @ôa</i>.</p><p><a class='proj_links' target='blank' href='https://soundcloud.com/coletivo_lenha/sets/dj-420oa-bootlegs-oa'>→ Listen Here</a></p>",
+        collaboration: [],
+        thumbnail: 'looks/looks.jpg',
+        images: ['looks/420.svg', 'looks/looks.jpg', 'looks/stickers.png']
     }
 ]
 
@@ -174,8 +184,8 @@ var projs_new = [
     }
 
         {
-        title_home: 'Proxy, The Worl',
-        title_full: 'Proxy, The Worl',
+        title_home: 'Proxy, The World',
+        title_full: 'Proxy, The World',
         date: 'May 21, 2020 00:00:00',
         service: 'Graphic Design',
         text: 'No concelho de Tomar, na freguesia de Madalena, encontramos a aldeia de Cem Soldos, lugar onde, uma vez por ano, a cultura portuguesa é celebrada e partilhada com todos os que a visitam nos dias prometidos. Ao visitar Cem Soldos nos quatro dias eufóricos de verão do festival BONS SONS, a memória que guardei desta aldeia foi a de um movimento permanente, ruas e praças cheias até à claustrofobia, atividade borbulhante que ninguém consegue acompanhar, pontos de cerveja a cada esquina e travessas estreitas utilizadas como vias de passagem de um palco para outro. Sem nunca ter chegado a conhecer este lugar, adivinho que Cem Soldos fica perdido algures no contraste entre a alegria e o desânimo, a agitação e a melancolia, a música e o silêncio. Sem a intervenção do festival transforma-se numa aldeia desconhecida, um espaço lúgubre e tranquilo como todas as outras aldeias.',
@@ -183,7 +193,17 @@ var projs_new = [
         thumbnail: 'proxy.svg',
         images: ['proxy_logo.svg', 'proxy.svg']
     },
-
+,
+    {
+        title_home: '✕ Williams Esports Livery',
+        title_full: 'Williams Esports Livery',
+        date: 'January 28, 2021 00:00:00',
+        service: ['Graphic Design'],
+        text: "<p>Williams Esports Livery</p>",
+        collaboration: [],
+        thumbnail: 'williams/star-01.jpg',
+        images: ['williams/star-01.jpg', 'williams/star-02.jpg']
+    }
   
 
 */
