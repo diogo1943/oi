@@ -146,7 +146,7 @@ var projs_new = [
         title_full: 'The World’s Most Famous Designer',
         date: 'October 17, 2021 00:00:00',
         service: ['Graphic Design', 'WIP'],
-        text: "<p>I, Diogo Lourenço (OI), am the world’s most famous Designer.</p><p><a class='proj_links' target='blank' href='https://oi-oi.work/about'>→ Lear More</a></p>",
+        text: "<p>I, Diogo Lourenço (OI), am the world’s most famous Designer.</p><p><a class='proj_links' target='blank' href='https://oi-oi.work/about'>→ Learn More</a></p>",
         collaboration: [],
         thumbnail: 'famous/famous-tape.jpg',
         images: ['famous/famous-title.png', 'famous/famous-poster-01.jpg', 'famous/famous-tape-flat.png', 'famous/famous-tape.jpg', 'famous/famous-og.jpg']
