@@ -96,7 +96,7 @@ var projs_new = [
         title_full: 'CLOT Kiss of Death “CHA” Poster',
         date: 'March 16, 2021 00:00:00',
         service: ['Graphic Design'],
-        text: "<p>Experimental poster inspired by CLOT's Air Max 1 K.O.D “CHA” as a way of celebrating Air Max Month.</p>",
+        text: "<p>Experimental poster inspired by CLOT’s Air Max 1 K.O.D “CHA” as a way of celebrating Air Max Month.</p>",
         collaboration: [],
         thumbnail: 'clot_cha/clot_cha_logo.png',
         images: ['clot_cha/clot_cha_logo.png', 'clot_cha/clot_cha_poster.jpg']
@@ -140,6 +140,16 @@ var projs_new = [
         collaboration: [],
         thumbnail: 'looks/looks.jpg',
         images: ['looks/420.svg', 'looks/looks.jpg', 'looks/stickers.png']
+    },
+    {
+        title_home: 'The World’s Most Famous Designer',
+        title_full: 'The World’s Most Famous Designer',
+        date: 'October 17, 2021 00:00:00',
+        service: ['Graphic Design', 'WIP'],
+        text: "<p>I, Diogo Lourenço (OI), am the world’s most famous Designer.</p><p><a class='proj_links' target='blank' href='https://oi-oi.work/about'>→ Lear More</a></p>",
+        collaboration: [],
+        thumbnail: 'famous/famous-tape.jpg',
+        images: ['famous/famous-title.png', 'famous/famous-poster-01.jpg', 'famous/famous-tape-flat.png', 'famous/famous-tape.jpg', 'famous/famous-og.jpg']
     }
 ]
 
