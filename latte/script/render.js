@@ -19,7 +19,7 @@ function render(a) {
 
         var img = document.createElement('img');
         if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
-            img.setAttribute("src", 'layerslayer' + i + '-01.png')
+            img.setAttribute("src", 'layers/layer' + i + '-01.png')
         } else {
             img.setAttribute("src", 'layers/layer' + i + '-01.png')
         }
