@@ -150,6 +150,36 @@ var projs_new = [
         collaboration: [],
         thumbnail: 'famous/famous-tape.jpg',
         images: ['famous/famous-title.png', 'famous/famous-poster-01.jpg', 'famous/famous-tape-flat.png', 'famous/famous-tape.jpg', 'famous/famous-og.jpg']
+    },
+    {
+        title_home: 'Cinenova',
+        title_full: 'Cinenova',
+        date: 'December 13, 2021 00:00:00',
+        service: ['Art Direction', 'Brand Identity', 'Graphic Design'],
+        text: '<p>In the midst of a worldwide pandemic, the third edition of Cinenova Festival stood strong and delivered, yet again, an amazing experience for everyone involded. Recieving films from more than 92 countries, Cinenova has become truly worldwide and a force to be reckon with.</p><p><a class="proj_links" target="blank" href="https://cinenova.fcsh.unl.pt/en">→ Project Website</a></p>',
+        collaboration: ['João Delgado', 'Maria Antunes'],
+        thumbnail: 'cinenova2021/foto01.jpg',
+        images: ['cinenova2021/title.svg', 'cinenova2021/poster.jpg', 'cinenova2021/poster_expo.jpg', 'cinenova2021/foto01.jpg', 'cinenova2021/foto02.jpg', 'cinenova2021/foto03.jpg', 'cinenova2021/foto04.jpg']
+    },
+    {
+        title_home: 'Chronic Conditions',
+        title_full: 'Chronic Conditions:<br>Body And Building',
+        date: 'December 13, 2021 00:00:00',
+        service: ['Graphic Design', 'Editorial Design'],
+        text: '<p><i>Chronic Conditions: Body And Building</i> was an exihibition focused on the realationhip between chronic illess patients and architechture. As an incomplete guide, this project presents fragments of stories, experiences, buildings, archival material, and items from the collection of leading European institutions that forms a guide that, fundamentally, is incomplete. The audience — patient or architect — can fill in the gaps with their own experience.</p><p><a class="proj_links" target="blank" href="https://www.trienaldelisboa.com/programme/events/bben">→ Learn More</a></p>',
+        collaboration: [],
+        thumbnail: 'a-to-x/chronic2.jpg',
+        images: ['a-to-x/chronic.svg', 'a-to-x/chronic2.jpg', 'a-to-x/poster.jpg','a-to-x/foto_01.jpg', 'a-to-x/foto_02.jpg']
+    },
+    {
+        title_home: 'Air Max 1: The Gathering Poster',
+        title_full: 'Air Max 1: The Gathering Poster',
+        date: 'March 16, 2022 00:00:00',
+        service: ['Graphic Design'],
+        text: "<p>For this year’s Air Max Day let’s go back to the origins, the 1 who started it all. This poster gathers the 162 more iconic colourways of the iconic silhouette.</p>",
+        collaboration: [],
+        thumbnail: 'air_max_1_poster/mock.jpg',
+        images: ['air_max_1_poster/poster.jpg', 'air_max_1_poster/mock.jpg']
     }
 ]
 
