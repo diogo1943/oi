@@ -176,10 +176,10 @@ var projs_new = [
         title_full: 'Air Max 1: The Gathering Poster',
         date: 'March 16, 2022 00:00:00',
         service: ['Graphic Design'],
-        text: "<p>For this year’s Air Max Day let’s go back to the origins, the 1 who started it all. This poster gathers the 162 more iconic colourways of the iconic silhouette.</p>",
+        text: "<p>For this year’s Air Max Day let’s go back to the origins, the 1 who started it all. This poster gathers the 162 more iconic colourways of the iconic silhouette.</p><p>The poster was then sold as an open-edition during the Air Max Day event at Komun Lisbon.</p>",
         collaboration: [],
-        thumbnail: 'air_max_1_poster/mock.jpg',
-        images: ['air_max_1_poster/poster.jpg', 'air_max_1_poster/mock.jpg']
+        thumbnail: 'air_max_1_poster/animation.webp',
+        images: ['air_max_1_poster/poster.jpg','air_max_1_poster/animation.webp', 'air_max_1_poster/01.jpg', 'air_max_1_poster/02.jpg']
     }
 ]
 
