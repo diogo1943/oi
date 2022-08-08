@@ -169,7 +169,7 @@ var projs_new = [
         text: '<p><i>Chronic Conditions: Body And Building</i> was an exihibition focused on the realationhip between chronic illess patients and architechture. As an incomplete guide, this project presents fragments of stories, experiences, buildings, archival material, and items from the collection of leading European institutions that forms a guide that, fundamentally, is incomplete. The audience — patient or architect — can fill in the gaps with their own experience.</p><p><a class="proj_links" target="blank" href="https://www.trienaldelisboa.com/programme/events/bben">→ Learn More</a></p>',
         collaboration: [],
         thumbnail: 'a-to-x/chronic2.jpg',
-        images: ['a-to-x/chronic.svg', 'a-to-x/chronic2.jpg', 'a-to-x/poster.jpg','a-to-x/foto_01.jpg', 'a-to-x/foto_02.jpg']
+        images: ['a-to-x/chronic.svg', 'a-to-x/chronic2.jpg', 'a-to-x/poster.jpg', 'a-to-x/foto_01.jpg', 'a-to-x/foto_02.jpg']
     },
     {
         title_home: 'Air Max 1: The Gathering Poster',
@@ -179,7 +179,18 @@ var projs_new = [
         text: "<p>For this year’s Air Max Day let’s go back to the origins, the 1 who started it all. This poster gathers the 162 more iconic colourways of the iconic silhouette.</p><p>The poster was then sold as an open-edition during the Air Max Day event at Komun Lisbon.</p>",
         collaboration: [],
         thumbnail: 'air_max_1_poster/animation.webp',
-        images: ['air_max_1_poster/poster.jpg','air_max_1_poster/animation.webp', 'air_max_1_poster/01.jpg', 'air_max_1_poster/02.jpg']
+        images: ['air_max_1_poster/poster.jpg', 'air_max_1_poster/animation.webp', 'air_max_1_poster/01.jpg', 'air_max_1_poster/02.jpg']
+    },
+
+    {
+        title_home: 'Lenha Grand Prix',
+        title_full: 'Lenha Grand Prix',
+        date: 'January 28, 2022 00:00:00',
+        service: ['Graphic Design'],
+        text: "<p>Visual identity project for Coletivo Lenha’s <i>Lenha Grand Prix</i>. This series was born from the mutual love of motorsports between myself and many of Lenha’s composing members.</p><p>For every new “race”, a new member gets his own custom, fully drivable, in-game car where they can play against each other on Asseto Corsa. This allows for a more genuine experience and more accurate driving performance.</p><p>The first feautred car belongs to DJ 420@ÔA, and the second for DJ Vicecity.</p>",
+        collaboration: [],
+        thumbnail: 'lenha_grand_prix/thumb.jpg',
+        images: ['lenha_grand_prix/title.svg', 'lenha_grand_prix/logo.svg', 'lenha_grand_prix/lenhagp-01.jpg', 'lenha_grand_prix/screen01.jpg', 'lenha_grand_prix/lenhagp-02.jpg', 'lenha_grand_prix/screen02.jpg']
     }
 ]
 
