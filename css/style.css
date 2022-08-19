@@ -10,7 +10,6 @@ body {
   font-size: 15px;
   cursor: default;
   scrollbar-width: none;
-  scroll-behavior: smooth;
 }
 
 @media screen and (max-width: 600px) {
@@ -115,8 +114,28 @@ br {
           box-sizing: border-box;
 }
 
+.cont #list hr {
+  display: none;
+}
+
 .cont #list p {
   margin: 0;
+}
+
+.cont #list p img {
+  display: none;
+  -webkit-animation: smoothload 0.2s linear;
+          animation: smoothload 0.2s linear;
+}
+
+@media (hover: hover) {
+  .cont #list p:hover img {
+    display: block;
+    height: calc(50vh - 20px);
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+  }
 }
 
 #proj #service {
@@ -176,24 +195,10 @@ ul li {
   color: inherit;
 }
 
-.item_links img,
-.item_links:visited img {
-  display: none;
-  -webkit-animation: smoothload 0.1s linear;
-          animation: smoothload 0.1s linear;
-}
-
-.item_links:hover {
+.item_links:hover,
+.item_links:active {
   text-decoration: underline;
   cursor: pointer;
-}
-
-.item_links:hover img {
-  display: block;
-  height: calc(50vh - 20px);
-  position: fixed;
-  bottom: 10px;
-  right: 10px;
 }
 
 .proj_links,
@@ -338,8 +343,31 @@ ul li {
   .cont {
     width: 100%;
   }
-  .cont #list p {
-    margin: 0;
+  .cont #list hr {
+    display: block;
+  }
+  .cont #list p,
+  .cont #list hr {
+    margin-bottom: 20px;
+  }
+  .cont #list p a,
+  .cont #list hr a {
+    display: block;
+    width: 100%;
+    min-height: 40px;
+    text-align: center;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 10px;
+    border: solid black 1px;
+    border-radius: 20px;
+  }
+  .cont #list p img,
+  .cont #list hr img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
   }
   .right {
     position: absolute;
@@ -387,10 +415,8 @@ ul li {
 }
 
 hr {
-  color: black;
-  background-color: black;
   margin: 0 0 15px;
-  border: solid 0.5px black;
-  border-radius: 50%;
+  border: 0.25px solid black;
+  background-color: black;
 }
 /*# sourceMappingURL=style.css.map */

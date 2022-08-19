@@ -13,7 +13,7 @@ body {
   cursor: default;
   //background-color: green;
   scrollbar-width: none;
-  scroll-behavior: smooth;
+  //scroll-behavior: smooth;
 
   @media screen and (max-width: 600px) {
     -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
@@ -102,9 +102,34 @@ br {
   box-sizing: border-box;
 
   #list {
+
+    hr {
+      display: none;
+    }
+
     p {
       margin: 0;
+
+      img {
+        display: none;
+        animation: smoothload 0.2s linear;
+      }
     }
+
+    @media (hover: hover) {
+      p:hover {
+        img {
+          display: block;
+          height: calc(50vh - 20px);
+          position: fixed;
+          bottom: 10px;
+          right: 10px;
+          //background-color: red;
+        }
+      }
+    }
+
+
   }
 }
 
@@ -121,7 +146,7 @@ br {
   }
 }
 
-#collabs_p{
+#collabs_p {
   margin-bottom: $font_normal;
 }
 
@@ -167,26 +192,13 @@ ul {
 .item_links:visited {
   text-decoration: none;
   color: inherit;
-
-  img {
-    display: none;
-    animation: smoothload 0.1s linear;
-  }
 }
 
-.item_links:hover {
+.item_links:hover,
+.item_links:active {
   text-decoration: underline;
   cursor: pointer;
   //font-style: italic;
-
-  img {
-    display: block;
-    height: calc(50vh - 20px);
-    position: fixed;
-    bottom: 10px;
-    right: 10px;
-    //background-color: red;
-  }
 }
 
 .proj_links,
@@ -319,9 +331,36 @@ ul {
     width: 100%;
 
     #list {
-      p {
-        margin: 0;
+
+      hr {
+        display: block;
       }
+
+      p,
+      hr {
+        margin-bottom: 20px;
+
+        a {
+          display: block;
+          //background-color: black;
+          width: 100%;
+          min-height: 40px;
+          text-align: center;
+          box-sizing: border-box;
+          padding: 10px;
+          border: solid black 1px;
+          border-radius: 20px;
+        }
+
+        img {
+          display: block;
+          width: 100%;
+          height: auto;
+          //background-color: aqua;
+          margin-bottom: 20px;
+        }
+      }
+
     }
   }
 
@@ -377,15 +416,13 @@ ul {
   display: block;
 }
 
-.note{
+.note {
   font-size: $font_sub;
   //font-weight: bold;
 }
 
-hr{
-  color: black;
-  background-color: black;
+hr {
   margin: 0 0 15px;
-  border: solid 0.5px black;
-  border-radius: 50%;
+  border: 0.25px solid black;
+  background-color: black;
 }

@@ -27,16 +27,16 @@ document.onkeydown = function (evt) {
 /*
 if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
     console.log('oi');
-    document.body.style.backgroundColor = 'black';
-    document.body.style.color = 'red';
+    document.body.style.backgroundColor = '#131313';
+    document.body.style.color = '#FF0000';
 }
 */
-
 
 
 function render() {
 
     var i
+
 
     for (var i = projs_new.length; i--;) {
         var today = new Date();
@@ -46,16 +46,21 @@ function render() {
         if (today > proj_date) {
             var p = document.createElement('p');
             var a = document.createElement('a');
-            a.classList.add("item_links");
+            p.classList.add("item_links");
             a.setAttribute('alt', 'ioioioioioi');
             a.innerHTML = (projs_new[i])['title_home'] + ' (' + proj_year + ')';
-            var img = document.createElement("IMG");
+            var img = document.createElement("img");
             img.setAttribute("src", "img/work/" + (projs_new[i])['thumbnail']);
             img.setAttribute("alt", '© Diogo lourenço (OI)');
+            p.appendChild(img);
             p.appendChild(a);
-            a.appendChild(img);
             a.setAttribute("id", i);
             document.getElementById("list").appendChild(p);
+
+                var hr = document.createElement('hr');
+                document.getElementById("list").appendChild(hr);
+            
+
             a.addEventListener("click", openproj);
 
             var proj_date_new = new Date((projs_new[i])['date']);
@@ -66,18 +71,23 @@ function render() {
                 var newtext = document.createTextNode(' NEW!')
                 sup.appendChild(newtext);
                 sup.classList.add('new')
-                p.appendChild(sup)
+                a.appendChild(sup)
             }
         }
     }
 }
 
 function openproj(evt) {
+
+    window.scrollTo(0, 0)
+
     var projKW = defautlKW;
+
+    var lop = document.getElementById("list");
 
     evt = evt || window.event;
     var i = evt.srcElement.id;
-    //console.log(i);
+    console.log(i);
     //console.log((projs[i])[1]);
 
     var proj_date = new Date((projs_new[i])['date']);
@@ -135,7 +145,7 @@ function openproj(evt) {
 
     for (v = 0; v < images.length; v++) {
         //console.log('oi');
-        var img = document.createElement("IMG");
+        var img = document.createElement("img");
         var src = images[v];
         //console.log(src);
         img.setAttribute("id", v);
@@ -143,6 +153,7 @@ function openproj(evt) {
         img.setAttribute("src", "img/work/" + src);
         img.classList.add('galeria_img');
         img.addEventListener('click', zoom_img);
+
         document.getElementById("galeria").appendChild(img);
     }
 
@@ -158,6 +169,9 @@ function close_proj() {
 }
 
 function zoom_img(evt) {
+
+    console.log('o');
+
     //console.log('zoom in');
 
     evt = evt || window.event;
@@ -187,6 +201,9 @@ function zoom_img(evt) {
     dark_back.appendChild(esc);
 
     document.body.appendChild(dark_back);
+
+
+
 
 }
 
