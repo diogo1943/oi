@@ -56,10 +56,12 @@ function render() {
             p.appendChild(a);
             a.setAttribute("id", i);
             document.getElementById("list").appendChild(p);
-
+            if (i != 0) {
                 var hr = document.createElement('hr');
                 document.getElementById("list").appendChild(hr);
-            
+            }
+
+
 
             a.addEventListener("click", openproj);
 
