@@ -58,8 +58,8 @@ var projs_new = [
         service: ['Graphic Design', 'Webdesign', 'Web Development'],
         text: "<p>In the midst of harder times, “living on the edge” has become an expression more commonly associated with our day-to-day lives, those which have somewhat turned into an uncool version of what we expected from a pandemic dystopia-like reality.</p><p>In the close of the first year of the Master’s Degree in Communication Design the students reflected upon many contemporary questions such as: human-machine relations, surveillance, post-internet society and the importance of individual identity. </p><p><i>Living on the edge of</i> comes as a practical answer to the impossibility of a physical exhibition. It’s a crossroad that takes us to the many different worlds created by the students. The title also refers to the approaches they took to explore the limits of their particular subjects. Because what’s the point of living if not on the edge?</p><p><a class='proj_links' target='blank' href='http://2020.fbaul-dcnm.pt/'>→ Project Website</a></p>",
         collaboration: [],
-        thumbnail: 'edge/thumb.svg',
-        images: ['edge/edge_logo.svg', 'edge/edge_print-01.png', 'edge/edge_print-02.png']
+        thumbnail: 'edge/thumb-01.jpg',
+        images: ['edge/edge_logo.svg', 'edge/mock-01.png', 'edge/mock-02.png']
     },
     {
         title_home: 'Psychiatry Art and Culture',
@@ -115,7 +115,7 @@ var projs_new = [
         title_home: 'Ferrari Esports Livery Contest',
         title_full: 'Ferrari Esports Livery Contest',
         date: 'Jully 28, 2021 00:00:00',
-        service: ['Graphic Design'],
+        service: ['Graphic Design', 'Contest'],
         text: "<p>The goal with this livery trio was to bring the world of motorsport closer to the digital world. The design was made to give the impression of the cars breaking into the world of gaming, with their bright colors and glitch-like patterns. The liveries were divided by layers, the first bringing up the more functional aspect of the cars with lines emphasizing the aero lines as well as other functional details and the second bringing up the digital motifs. The vibrant colors used on the cars where chosen to evoke the RGB color system, which is commonly associated with the gaming world, but also has a parallel to the CMYK color system, traditionally used in printed matter, reflected in the usage of the registration marks and the crop outlines, functioning as a bridge between the physical and the digital universes.</p><p>Each car was given a livery that could best reflect its own character. The 599 (yellow), given its more emposing and classical silhouette gives a nod to the Italian fashion scene with its pin-striped hood, while the 488 GT3 (dark red), due to its more aggressive looking posture, has a design that tries to use the negative dark space as a way to change its apparent aerodynamics inspired by the F643. The remaining livery for the Challenger Evo (red) was made to be the default <i>digital cruiser</i>, being the livery that incorporates more aspects of the digital identity.</p><p>Ferrari 488 Challenge Evo: 2nd place<br>Ferrari 599XX EVO: 2nd place<br>Ferrari 488 GT3 Evo 2020: 2nd place</p><hr><p class='note'>Note: This project has a really special place for me and in my path as a designer. Since my childhood I have played many racing games and I remember being more invested in designing the cars more than racing with them, and that has influenced me to become a designer. One of my personal goals as a graphic designer was to one day design a real racing livery, and this project allowed me to be one step closer to that reality. Special thanks to my great friend Tiago Nunes, for not only showing me this opportunity but for also sharing the game with me.</p><p><a class='proj_links' target='blank' href='https://esports-registration.ferrari.com/liverycontest/'>→ Livery Contest</a></p>",
         collaboration: [],
         thumbnail: 'ferrari/ferrari.jpg',
@@ -191,6 +191,16 @@ var projs_new = [
         collaboration: [],
         thumbnail: 'lenha_grand_prix/thumb.jpg',
         images: ['lenha_grand_prix/title.svg', 'lenha_grand_prix/logo.svg', 'lenha_grand_prix/lenhagp-01.jpg', 'lenha_grand_prix/screen01.jpg', 'lenha_grand_prix/lenhagp-02.jpg', 'lenha_grand_prix/screen02.jpg']
+    },
+    {
+        title_home: 'The 40th',
+        title_full: 'The 40th',
+        date: 'October 6, 2022 00:00:00',
+        service: ['Graphic Design'],
+        text: "<p>For the celebration of the 40th aneversary of Nike's most iconic silhouette, Latte Lisbon and Sed Sneakered organized an exhibition to showcase 40 rare and recognizable colorways of the Air Force 1 straight from the crew's personal collections.</p>",
+        collaboration: [],
+        thumbnail: 'the40th/thumb.webp',
+        images: ['the40th/poster.jpg', 'the40th/post.webp', 'the40th/crew.jpg']
     }
 ]
 
