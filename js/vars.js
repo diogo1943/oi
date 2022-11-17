@@ -187,7 +187,7 @@ var projs_new = [
         title_full: 'Lenha Grand Prix',
         date: 'January 28, 2022 00:00:00',
         service: ['Graphic Design'],
-        text: "<p>Visual identity project for Coletivo Lenha’s <i>Lenha Grand Prix</i>. This series was born from the mutual love of motorsports between myself and many of Lenha’s composing members.</p><p>For every new “race”, a new member gets his own custom, fully drivable, in-game car where they can play against each other on Asseto Corsa. This allows for a more genuine experience and more accurate driving performance.</p><p>The first feautred car belongs to DJ 420@ÔA, and the second for DJ Vicecity.</p>",
+        text: "<p>Visual identity project for Coletivo Lenha’s <i>Lenha Grand Prix</i>. This series was born from the mutual love of motorsports between myself and many of Lenha’s composing members.</p><p>For every new “race”, a new member gets his own custom, fully drivable, in-game car where they can play against each other on Asseto Corsa. This allows for a more genuine experience and more accurate driving performance.</p><p>The first feautred car belongs to DJ 420@ÔA, and the second to DJ Vicecity.</p>",
         collaboration: [],
         thumbnail: 'lenha_grand_prix/thumb.jpg',
         images: ['lenha_grand_prix/title.svg', 'lenha_grand_prix/logo.svg', 'lenha_grand_prix/lenhagp-01.jpg', 'lenha_grand_prix/screen01.jpg', 'lenha_grand_prix/lenhagp-02.jpg', 'lenha_grand_prix/screen02.jpg']
