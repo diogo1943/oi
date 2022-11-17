@@ -26,7 +26,6 @@ var projs_new = [
         date: 'October 12, 2019 00:00:00',
         service: ['Graphic Design', 'Web Development', 'Webdesign'],
         text: '<p>In the post-digital era, reality and fiction have been diluted. The expression of this lack of definition isn’t limited to just creative and artistic endeavours, but is often weaponized by various power structures, whether formal or informal. This instrumentalization deconstructs core values such as democracy, individual and collective identity, ethnicity, and other fundamental principles of our society.</p><p>Before this current and ‘desirable’ identity crisis, design always worked with and for reality. Its objects belong, circulate, and (re)construct reality. The frailty of the majority of communication design objects also contributes to this idea of a practice that ‘serves’ the present. In short, the inevitable shock with reality defines the social status of design. If ‘design and reality’ is a (false) truism, design and fiction might appear to be an improbable hypothesis. In the face of historical, legitimized practices — such as literature or cinema — design now reclaims its place in fiction.</p><p>At the end of another cycle of study in communication design at the Lisbon Faculty of Fine-Arts, we have gone over the dilemmas, the contradictions and the themes that pertain to contemporaneity. Through the projects produced this year, the students have either commented, critiqued or essayed reality, or turned it into fiction. We’ve steered very close to cinema, literature, mythology, but also to the hard truths of a reality that insists on presenting itself, suprising us, and deconstructing itself before our eyes.</p><p><a class="proj_links" target="blank" href="http://ittakesseveralminutes.belasartes.ulisboa.pt/">→ Project Website</a></p>',
-        //collaboration: 'colab w/:<br>Afonso de Matos<br>Beatriz Pinta Gama<br>Inês Pinheiro<br>Nádia Alexandre<br>Vitor Serra<br><br>',
         collaboration: ['Afonso de Matos', 'Beatriz Pinta Gama', 'Inês Pinheiro', 'Nádia Alexandre', 'Vitor Serra'],
         thumbnail: 'it_takes/it_takes_logo.svg',
         images: ['it_takes/it_takes_logo.svg', 'it_takes/it_takes_01.jpg', 'it_takes/it_takes_site-01.png', 'it_takes/it_takes_site-02.png', 'it_takes/it_takes_site-03.png', 'it_takes/it_takes_site-04.png', 'it_takes/it_takes_site-05.png', 'it_takes/it_takes_site-06.png']
@@ -46,7 +45,7 @@ var projs_new = [
         title_full: 'Cinenova',
         date: 'October 12, 2020 00:00:00',
         service: ['Brand Identity', 'Graphic Design', 'Web Development', 'Webdesign'],
-        text: '<p>Organized by university students and professors of NOVA-FCSH, CINENOVA is the first Interuniversity Film Festival in Portugal. Its goal is to focus on the relationship between Cinema and Knowledge, and to bolster student directors and their projects.</p><p>This project comes as a collaboration with the Fine-Arts School of Lisbon (FBAUL) where a small team was assembled to develop the new brand identity, communication and website for the festival.</p><p><a class="proj_links" target="blank" href="https://cinenova.fcsh.unl.pt/2020/cinenova2020">→ Project Website</a></p>',
+        text: '<p>Organized by university students and professors of NOVA-FCSH, CINENOVA is the first Interuniversity Film Festival in Portugal. Its goal is to focus on the relationship between Cinema and Knowledge, and to bolster student directors and their projects.</p><p>This project comes as a collaboration with the Fine-Arts School of Lisbon (FBAUL) where a small team was assembled to develop the new brand identity, communication and website for the festival.</p><p><a class="proj_links" target="blank" href="https://cinenova.fcsh.unl.pt/2020/eng">→ Project Website</a></p>',
         collaboration: ['Tiago Nunes'],
         thumbnail: 'cinenova/cinenova.jpg',
         images: ['cinenova/cine_logo.svg', 'cinenova/cinenova.jpg', 'cinenova/cine_poster.jpg', 'cinenova/cine_site-01.png', 'cinenova/cine_site-02.png', 'cinenova/cine_site-03.png', 'cinenova/cine_site-04.png', ]
@@ -156,7 +155,7 @@ var projs_new = [
         title_full: 'Cinenova',
         date: 'December 13, 2021 00:00:00',
         service: ['Art Direction', 'Brand Identity', 'Graphic Design'],
-        text: '<p>In the midst of a worldwide pandemic, the third edition of Cinenova Festival stood strong and delivered, yet again, an amazing experience for everyone involded. Recieving films from more than 92 countries, Cinenova has become truly worldwide and a force to be reckon with.</p><p><a class="proj_links" target="blank" href="https://cinenova.fcsh.unl.pt/en">→ Project Website</a></p>',
+        text: '<p>In the midst of a worldwide pandemic, the third edition of Cinenova Festival stood strong and delivered, yet again, an amazing experience for everyone involded. Recieving films from more than 92 countries, Cinenova has become truly worldwide and a force to be reckon with.</p><p><a class="proj_links" target="blank" href="https://cinenova.fcsh.unl.pt/2021/en">→ Project Website</a></p>',
         collaboration: ['João Delgado', 'Maria Antunes'],
         thumbnail: 'cinenova2021/foto01.jpg',
         images: ['cinenova2021/title.svg', 'cinenova2021/poster.jpg', 'cinenova2021/poster_expo.jpg', 'cinenova2021/foto01.jpg', 'cinenova2021/foto02.jpg', 'cinenova2021/foto03.jpg', 'cinenova2021/foto04.jpg']
@@ -201,6 +200,16 @@ var projs_new = [
         collaboration: [],
         thumbnail: 'the40th/thumb.webp',
         images: ['the40th/poster.jpg', 'the40th/post.webp', 'the40th/crew.jpg']
+    },
+    {
+        title_home: 'Weltformat Newcomer Award',
+        title_full: 'Weltformat Newcomer Award',
+        date: 'November 17, 2022 00:00:00',
+        service: ['Graphic Design', 'Contest'],
+        text: "<p>Submitions for the Weltformat Newcomer Award about the theme: Speed.</p><p>Altought my submittions were not selected, I feel very proud of my work and had a lot of fun designing both of these proposals.</p><p>I'll try again next year... Wish me luck!</p>",
+        collaboration: [],
+        thumbnail: 'weltformat/thumb.jpg',
+        images: ['weltformat/SPEED_final-01.jpg', 'weltformat/SPEED_final-02.jpg']
     }
 ]
 
