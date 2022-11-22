@@ -1,0 +1,76 @@
+body {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    padding: 15px;
+    box-sizing: border-box;
+    align-items: center;
+    color: white;
+    margin: 0;
+    background-color: rgb(27, 32, 57);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#canvas {
+    margin: 0;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    position: fixed;
+    height: auto;
+    width: 100%;
+    top: 0;
+    mix-blend-mode: screen;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+#logo {
+    width: 100%;
+    height: auto;
+    position: sticky;
+    top: 15px;
+    filter: drop-shadow(0px 0px 10px white);
+    //z-index: 1;
+    mix-blend-mode: screen;
+    //background-color: aqua;
+}
+
+#cards {
+    //background-color: red;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.hour_card {
+    width: calc((100% / 6) - ((5 * 15px) / 5));
+    height: auto;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    filter: drop-shadow(0px 0px 3px white);
+
+    @media screen and (max-width: 600px) {
+        width: calc((100% / 2) - ((2 * 15px) / 2));
+    }
+
+}
+
+#clock {
+    z-index: 100;
+    margin: 0;
+    position: fixed;
+    left: 15px;
+    top: 15px;
+    font-size: 15px;
+
+    @media screen and (max-width: 600px) {
+        font-size: 10px;
+    }
+
+}

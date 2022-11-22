@@ -1,0 +1,95 @@
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: auto;
+  padding: 15px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  margin: 0;
+  background-color: #1b2039;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#canvas {
+  margin: 0;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  position: fixed;
+  height: auto;
+  width: 100%;
+  top: 0;
+  mix-blend-mode: screen;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+#logo {
+  width: 100%;
+  height: auto;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 15px;
+  -webkit-filter: drop-shadow(0px 0px 10px white);
+          filter: drop-shadow(0px 0px 10px white);
+  mix-blend-mode: screen;
+}
+
+#cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100%;
+  height: auto;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 15px;
+}
+
+.hour_card {
+  width: calc((100% / 6) - ((5 * 15px) / 5));
+  height: auto;
+  margin-bottom: 15px;
+  border-radius: 15px;
+  -webkit-filter: drop-shadow(0px 0px 3px white);
+          filter: drop-shadow(0px 0px 3px white);
+}
+
+@media screen and (max-width: 600px) {
+  .hour_card {
+    width: calc((100% / 2) - ((2 * 15px) / 2));
+  }
+}
+
+#clock {
+  z-index: 100;
+  margin: 0;
+  position: fixed;
+  left: 15px;
+  top: 15px;
+  font-size: 15px;
+}
+
+@media screen and (max-width: 600px) {
+  #clock {
+    font-size: 10px;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
