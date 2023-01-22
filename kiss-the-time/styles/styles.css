@@ -15,7 +15,7 @@ body {
           align-items: center;
   color: white;
   margin: 0;
-  background-color: #1b2039;
+  background-color: #000830;
   font-family: 'Courier New', Courier, monospace;
 }
 
@@ -43,6 +43,12 @@ body {
   -webkit-filter: drop-shadow(0px 0px 10px white);
           filter: drop-shadow(0px 0px 10px white);
   mix-blend-mode: screen;
+}
+
+h2 {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: normal;
+  text-transform: uppercase;
 }
 
 #cards {

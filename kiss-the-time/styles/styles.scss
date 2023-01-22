@@ -7,7 +7,7 @@ body {
     align-items: center;
     color: white;
     margin: 0;
-    background-color: rgb(27, 32, 57);
+    background-color: rgb(0, 8, 48);
     font-family: 'Courier New', Courier, monospace;
 }
 
@@ -35,6 +35,12 @@ body {
     //z-index: 1;
     mix-blend-mode: screen;
     //background-color: aqua;
+}
+
+h2{
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: normal;
+    text-transform: uppercase;
 }
 
 #cards {
