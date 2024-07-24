@@ -41,8 +41,8 @@ var projs_new = [
         images: ['leap/leap-logo.svg', 'leap/leap.gif', 'leap/leap-01.jpg', 'leap/leap-02.jpg', 'leap/leap-03.jpg', 'leap/leap-04.jpg', 'leap/leap-05.jpg', 'leap/leap-06.jpg', 'leap/leap-07.jpg', 'leap/leap_site-01.png', 'leap/leap_site-02.png', 'leap/leap_site-03.png']
     },
     {
-        title_home: 'Cinenova',
-        title_full: 'Cinenova',
+        title_home: 'CINENOVA 2th Edition',
+        title_full: 'CINENOVA 2th Edition',
         date: 'October 12, 2020 00:00:00',
         service: ['Brand Identity', 'Graphic Design', 'Web Development', 'Webdesign'],
         text: '<p>Organized by university students and professors of NOVA-FCSH, CINENOVA is the first Interuniversity Film Festival in Portugal. Its goal is to focus on the relationship between Cinema and Knowledge, and to bolster student directors and their projects.</p><p>This project comes as a collaboration with the Fine-Arts School of Lisbon (FBAUL) where a small team was assembled to develop the new brand identity, communication and website for the festival.</p><p><a class="proj_links" target="blank" href="https://cinenova.fcsh.unl.pt/2020/eng">→ Project Website</a></p>',
@@ -151,8 +151,8 @@ var projs_new = [
         images: ['famous/famous-title.png', 'famous/famous-poster-01.jpg', 'famous/famous-tape-flat.png', 'famous/famous-tape.jpg', 'famous/famous-og.jpg']
     },
     {
-        title_home: 'Cinenova',
-        title_full: 'Cinenova',
+        title_home: 'CINENOVA 3th Edition',
+        title_full: 'CINENOVA 3th Edition',
         date: 'December 13, 2021 00:00:00',
         service: ['Art Direction', 'Brand Identity', 'Graphic Design'],
         text: '<p>In the midst of a worldwide pandemic, the third edition of Cinenova Festival stood strong and delivered, yet again, an amazing experience for everyone involded. Recieving films from more than 92 countries, Cinenova has become truly worldwide and a force to be reckon with.</p><p><a class="proj_links" target="blank" href="https://cinenova.fcsh.unl.pt/2021/en">→ Project Website</a></p>',
@@ -210,6 +210,66 @@ var projs_new = [
         collaboration: [],
         thumbnail: 'weltformat/thumb.jpg',
         images: ['weltformat/SPEED_final-01.jpg', 'weltformat/SPEED_final-02.jpg']
+    },
+    {
+        title_home: 'CINENOVA 4th Edition',
+        title_full: 'CINENOVA 4th Edition',
+        date: 'July 24, 2024 00:00:00',
+        service: ['Art Direction', 'Brand Identity', 'Graphic Design'],
+        text: '<p>For the fourth edition of the CINENOVA Film Festival, the visual identity design draws inspiration from the inner mechanics of camera lenses. Highlighting the innovative spirit of university student films, the design incorporates dynamic visuals and intricate patterns. These elements celebrate the diversity and creativity of emerging filmmakers, offering festival-goers an immersive and visually captivating experience.</p><p><a class="proj_links" target="blank" href="https://cinenova.fcsh.unl.pt/2022/en">→ Project Website</a></p>',
+        collaboration: ['João Delgado', 'Maria Antunes'],
+        thumbnail: 'cinenova2022/trofeu.jpg',
+        images: ['cinenova2022/title.svg', 'cinenova2022/poster.png', 'cinenova2022/tote.png', 'cinenova2022/trofeu.jpg', 'cinenova2022/cinenovaproj.jpg']
+    },
+    {
+        title_home: 'Designing Futures',
+        title_full: 'Designing Futures: How can Ethics Change Design Theory and Practice',
+        date: 'July 24, 2024 00:00:00',
+        service: ['Editorial Design', 'Graphic Design'],
+        text: '<p><i>This book is based on the research I conducted for my master’s dissertation in Communication Design. Its focus is on exploring and documenting the relationship between ethics and design. Namely, how ethics is exercised within design and what are its intrinsic implications for the designer, for design, and for the environments in which our designs are embedded. It begins by asking whether the former can shape the latter as a discipline, in both theory and practice, and also hopes to offer some suggestions as to how. Ethics is not just inherent to the design process. It is inextricable from it. As such, an explicit concern for ethics and ethical deliberation matters because design is not neutral. It embodies values and epistemologies with profound political implications and communicates meaning through what we choose to reproduce. Hence, if we are not aware of what meaning we are imparting, we become complicit in a design which communicates, and consequently perpetuates, hegemonic systems of oppression. Systems which exclude rather than include. This matters especially to those concerned with shaping futures — a particularly appropriate preoccupation within a discussion which centers on both design and ethics, given the former’s intrinsic nature as some material projection of a desired outcome and the latter’s concern with deliberating over possible courses of action. This leads, therefore, to the conclusion that not only can ethics help mold the discipline of design into becoming more ethically responsible and accountable, but also that it must. Indeed, ethical implications, even when not made explicit, nevertheless remain implicated in the design process, especially given the latter’s role as the shaper of the interface through which we perceive and interact with the world, with others, and with ourselves.</i></p><p>— Ana Henriques, 2023</p><p><a class="proj_links" target="blank" href="https://www.anahenriques.eu/designingfutures/">→ Project Website</a></p>',
+        collaboration: [],
+        thumbnail: 'designing_futures/feature01.jpg',
+        images: ['designing_futures/feature01.jpg', 'designing_futures/arm.webp', 'designing_futures/gif_pages2.gif']
+    },
+    {
+        title_home: 'Air Max Day 23',
+        title_full: 'Air Max Day 23',
+        date: 'July 24, 2024 00:00:00',
+        service: ['Graphic Design', 'Illustration'],
+        text: '<p>For Air Max Day 2023, the visual identity design captures the dynamic energy of urban street culture and sneaker innovation. Featuring bold, fluid graphics and a vibrant color palette that blends classic Air Max hues with contemporary trends, the design includes striking posters, a sneaker-themed event, and a special edition collector trading cards, celebrating the legacy and future of the iconic Air Max line.</p>',
+        collaboration: [],
+        thumbnail: 'amd23/thumb_new.svg',
+        images: ['amd23/tshirt_black.svg', 'amd23/amd_poster.png', 'amd23/DSC01419.jpg', 'amd23/DSC01582.jpg', 'amd23/DSC01446.jpg', 'amd23/DSC01831.jpg', 'amd23/DSC01448.jpg']
+    },
+    {
+        title_home: 'CINENOVA 5th Edition',
+        title_full: 'CINENOVA 5th Edition',
+        date: 'July 24, 2024 00:00:00',
+        service: ['Art Direction', 'Brand Identity', 'Graphic Design'],
+        text: '<p>For the 5th edition of the CINENOVA Film Festival, the visual identity design draws inspiration from the intricate world of multi-camera filming techniques and the dynamic graphics found in editing software. It celebrates the artistic prowess and technical acumen of filmmakers through vibrant colors and dynamic visuals that evoke the essence of split screens and editing timelines.</p><p><a class="proj_links" target="blank" href="https://cinenova.fcsh.unl.pt/en">→ Project Website</a></p>',
+        collaboration: ['João Delgado', 'Maria Antunes'],
+        thumbnail: 'cinenova2024/01.jpg',
+        images: ['cinenova2024/title.svg', 'cinenova2024/cine-cartaz.png', 'cinenova2024/01.jpg', 'cinenova2024/02.jpg', 'cinenova2024/03.jpg', 'cinenova2024/04.jpg', 'cinenova2024/05.jpg']
+    },
+    {
+        title_home: 'Air Max Day 24',
+        title_full: 'Air Max Day 24',
+        date: 'Febuary 15, 2025 00:00:00',
+        service: ['Graphic Design', 'Illustration'],
+        text: '<p>sadsadsa</p>',
+        collaboration: [],
+        thumbnail: 'amd24/amd24_thumb.gif',
+        images: ['amd24/final.gif', 'amd23/DSC01419.jpg', 'amd23/DSC01582.jpg', 'amd23/DSC01446.jpg', 'amd23/DSC01831.jpg', 'amd23/DSC01448.jpg']
+    },
+    {
+        title_home: 'Jornal Umbigo Online',
+        title_full: 'Jornal Umbigo Online',
+        date: 'Febuary 15, 2025 00:00:00',
+        service: ['Art Direction', 'Brand Identity', 'Graphic Design'],
+        text: '<p>In the midst of a worldwide pandemic, the third edition of Cinenova Festival stood strong and delivered, yet again, an amazing experience for everyone involded. Recieving films from more than 92 countries, Cinenova has become truly worldwide and a force to be reckon with.</p><p><a class="proj_links" target="blank" href="https://cinenova.fcsh.unl.pt/en">→ Project Website</a></p>',
+        collaboration: ['João Delgado', 'Maria Antunes'],
+        thumbnail: 'cinenova2024/title.svg',
+        images: ['cinenova2022/title.svg', 'cinenova2022/poster.png', 'cinenova2022/tote.png']
     }
 ]
 
@@ -273,6 +333,36 @@ var projs_new = [
         collaboration: [],
         thumbnail: 'williams/star-01.jpg',
         images: ['williams/star-01.jpg', 'williams/star-02.jpg']
+    },
+    {
+        title_home: '✕ All About Business',
+        title_full: 'All About Business',
+        date: 'January 28, 2021 00:00:00',
+        service: ['Brand Identity', 'Graphic Design', 'Webdesign'],
+        text: "<p>Experimental poster exihibition all about business. MONEY MONEY MONEY MONEY MONEY!!!</p><p><a class='proj_links' target='blank' href='file:///C:/Users/diogo/Desktop/New%20folder/index.html'>→ All About Business</a></p>",
+        collaboration: [],
+        thumbnail: 'business/monolith-01.png',
+        images: ['business/monolith-01.png']
+    },
+    {
+        title_home: '✕ From VPN to BPM Remastered',
+        title_full: 'From VPN to BPM Remastered',
+        date: 'January 28, 2021 00:00:00',
+        service: ['Graphic Design', 'Editorial Design'],
+        text: "<p>Experimental poster inspired by CLOT's rumored Air Max 1 K.O.D &quotCHA&quot as a way of celebrating Air Max Month.</p>",
+        collaboration: [],
+        thumbnail: 'vpn_remastered/logo_sq.svg',
+        images: ['vpn_remastered/logo_hor.svg', 'vpn_remastered/capa.jpg', 'vpn_remastered/vpn_remastered4.jpg', 'vpn_remastered/vpn_remastered5.jpg', 'vpn_remastered/vpn_remastered6.jpg', 'vpn_remastered/vpn_remastered8.jpg', 'vpn_remastered/vpn_remastered10.jpg', 'vpn_remastered/vpn_remastered13.jpg', 'vpn_remastered/vpn_remastered15.jpg']
+    },
+    {
+        title_home: '✕ True North’s Narrative...',
+        title_full: 'True North’s Narrative:<br>Utopian Corporate Identity Manual Of The DPRK',
+        date: 'August 15, 2022 00:00:00',
+        service: ['Master’s Thesis'],
+        text: "<p>Identity. The word identity is described by ‘the circumstance that something is what it claims to be or what someone else assumes it to be’. In the vast majority of the western world, the identity of an individual is a precious thing, wars of values ​​are fought so that all people have the right to express their identity freely. However, in the Democratic People's Republic of Korea (DPRK), where policies of mandatory collectivism are implemented, where individualism is prohibited according to the values ​​of the Regime, it is ironically one of the countries most willing to express their own identity. It is a country that regularly demonstrates military power so as not to lose its relevance on the world stage, it is a country that, despite valuing the masses in opposition to the individual, has a central figure, a great leader who guides the population towards an idealized future. DPRK thus becomes a dystopian scenario, something that would be seen only in films, but sustained by the desire of those who want to discover more about this mysterious territory.</p><p>When thinking about DPRK's design, the first glimpse is all the political propaganda belonging to the workers' party. However, in this investigation, this will not be the only object of study of DPRK's design. The issue of DPRK's identity guides the project to force itself on the identity of the country as a whole as opposed to focusing on just one aspect of visual production, instead it will force itself on the interactions between this type of political propaganda, the cult of the leader, most common design materials and how popular and traditional Korean culture and how they come together to form a collective identity. The research is therefore distinguished by the comprehensive look it has on the panorama of the visual identity of DPRK, deconstructing it and always considering it as a whole in order to try to better understand who is the hermit kingdom, and especially what is the role of design to discover this identity?</p>",
+        collaboration: [],
+        thumbnail: 'dprk/logo-01.svg',
+        images: ['dprk/logo_full.svg', 'dprk/logo-01.svg', 'dprk/mass.jpg']
     }
   
 
