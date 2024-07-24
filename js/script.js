@@ -47,7 +47,7 @@ function render() {
             var p = document.createElement('p');
             var a = document.createElement('a');
             p.classList.add("item_links");
-            a.setAttribute('alt', 'ioioioioioi');
+            a.setAttribute('alt', (projs_new[i])['title_full']);
             a.innerHTML = (projs_new[i])['title_home'] + ' (' + proj_year + ')';
             var img = document.createElement("img");
             img.setAttribute("src", "img/work/" + (projs_new[i])['thumbnail']);
