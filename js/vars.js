@@ -254,7 +254,7 @@ var projs_new = [
     {
         title_home: 'Air Max Day 24',
         title_full: 'Air Max Day 24',
-        date: 'Febuary 15, 2025 00:00:00',
+        date: 'Febuary 16, 2026 00:00:00',
         service: ['Graphic Design', 'Illustration'],
         text: '<p>sadsadsa</p>',
         collaboration: [],
@@ -264,7 +264,7 @@ var projs_new = [
     {
         title_home: 'Jornal Umbigo Online',
         title_full: 'Jornal Umbigo Online',
-        date: 'Febuary 15, 2025 00:00:00',
+        date: 'Febuary 15, 2026 00:00:00',
         service: ['Art Direction', 'Brand Identity', 'Graphic Design'],
         text: '<p>In the midst of a worldwide pandemic, the third edition of Cinenova Festival stood strong and delivered, yet again, an amazing experience for everyone involded. Recieving films from more than 92 countries, Cinenova has become truly worldwide and a force to be reckon with.</p><p><a class="proj_links" target="blank" href="https://cinenova.fcsh.unl.pt/en">→ Project Website</a></p>',
         collaboration: ['João Delgado', 'Maria Antunes'],
