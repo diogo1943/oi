@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contract Progress Bar</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    html, body {
+      height: 100%;
+      overflow: hidden;
+      font-family: sans-serif;
+    }
+    .progress-container {
+      width: 100vw;
+      height: 100vh;
+      background-color: #111;
+      position: relative;
+    }
+    .progress-bar {
+      height: 100%;
+      background-color: #00ff88;
+      transition: width 1s linear;
+    }
+    .info {
+      position: absolute;
+      bottom: 5px;
+      right: 10px;
+      color: rgba(255, 255, 255, 0.3);
+      font-size: 0.8rem;
+      user-select: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="progress-container">
+    <div class="progress-bar" id="progressBar"></div>
+    <div class="info" id="info"></div>
+  </div>
+
+  <script>
+    const startDate = new Date("2024-10-08T00:00:00");
+    const endDate = new Date("2025-10-08T00:00:00");
+
+    function updateProgress() {
+      const now = new Date();
+      const total = endDate - startDate;
+      const elapsed = now - startDate;
+      let progress = (elapsed / total) * 100;
+      progress = Math.min(Math.max(progress, 0), 100); // clamp between 0 and 100
+
+      document.getElementById("progressBar").style.width = `${progress}%`;
+
+      const percentage = progress.toFixed(4);
+      const infoText = `Start: ${startDate.toLocaleDateString()} — End: ${endDate.toLocaleDateString()} — ${percentage}%`;
+      document.getElementById("info").textContent = infoText;
+    }
+
+    updateProgress();
+    setInterval(updateProgress, 60000); // update every minute
+  </script>
+</body>
+</html>
